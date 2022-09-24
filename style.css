@@ -309,7 +309,7 @@ transition: 0.5s ease;
 .items3{
    display: grid; 
    align-content: center;
-    background: url(/assert/Mask\ Group\ 6.svg) no-repeat;
+    background: url(https://res.cloudinary.com/di6dtlbpj/image/upload/v1664020236/adventure/Mask_Group_6_qv3ff1.svg) no-repeat;
     background-position: center;
     object-fit: contain;
     height: 90vh;
@@ -321,7 +321,7 @@ transition: 0.5s ease;
 
 
 .items4{
-    background: url(/assert/Mask\ Group\ 4.png) no-repeat;
+    background: url(https://res.cloudinary.com/di6dtlbpj/image/upload/v1664020227/adventure/Mask_Group_4_m31ohv.png) no-repeat;
     background-position: center;
     object-fit: contain;
     height: 90vh;
@@ -385,7 +385,7 @@ transition: 0.5s ease;
     }
 
     .footer{
-        background: url(/assert/Mask\ Group\ 5.svg);
+        background: url(https://res.cloudinary.com/di6dtlbpj/image/upload/v1664020223/adventure/Mask_Group_5_xt33gr.svg);
         margin-bottom: 30px;
         object-fit: cover;
         display: flex;
@@ -495,7 +495,7 @@ section{
  .menu-btn{
     display: block;
     cursor: pointer;
-    background: url(assert/main\ menu.svg) no-repeat;
+    background: url(https://res.cloudinary.com/di6dtlbpj/image/upload/v1664020215/adventure/main_menu_e6btwl.svg) no-repeat;
     background-position: center;
     background-size: 30px;
     z-index: 999;
@@ -507,7 +507,7 @@ section{
  .menu-btn.active{
     z-index: 999;
     display: inline;
-    background: url(assert/close\ menu.svg) no-repeat;
+    background: url(https://res.cloudinary.com/di6dtlbpj/image/upload/v1664020214/adventure/close_menu_riy5nz.svg) no-repeat;
     background-position: center;
     background-size: 25px;
     transition: 0.3s ease;
