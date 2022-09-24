@@ -103,7 +103,7 @@ nav.navbar a:hover {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: #2696E9;
+    background-color:rgb(72, 190, 123);
 
 }
 .hero:before{
