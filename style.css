@@ -103,7 +103,8 @@ nav.navbar a:hover {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color:rgb(72, 190, 123);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,54,1) 66%);
 
 }
 .hero:before{
@@ -166,6 +167,7 @@ transition: 0.5s ease;
     right: 0;
     height: 100%;
     width: 100%;
+    min-height: 100vh;
     object-fit: cover;
 }
 
@@ -467,7 +469,7 @@ transition: 0.5s ease;
 
 @media (max-width : 750px){
 section{
-    padding: 50px 20px;
+    padding: 0;
 
 }
 
@@ -478,6 +480,12 @@ section{
  .header .nav-links{
     display: none ;
  }
+
+ .hero{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,54,1) 66%);
+}
+
 
  .header .nav-links.active{
     position: fixed;
@@ -611,7 +619,9 @@ ul.nav-links li{
         letter-spacing: 1px;
         word-spacing: 3px;
     }
-
+    .container{
+        padding: 10px 20px;
+    }
     .hero .content h1 {
         font-size: 45px;
         font-weight: 600;
@@ -632,5 +642,32 @@ ul.nav-links li{
         height: 150px;
         width: 100%;
         margin:0 0 10px 0;
+    }
+
+    .hero{
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,54,1) 66%);
+    }
+    .hero video{
+        display: none;
+    }
+
+    .hero:before {
+        z-index: 777;
+        content: '';
+        position: absolute;
+        background: rgba(3, 251, 214, 0.1);
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    .hero .content p {
+        margin-bottom: 20px;
+        font-size: 12px;
+      line-height: unset;
+        letter-spacing: 1px;
+        word-spacing: 3px;
     }
 }

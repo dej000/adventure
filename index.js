@@ -6,20 +6,6 @@ menuBtn.addEventListener('click',()=>{
 })
 
 
-const btns = document.querySelector('.slider') 
-let slideNav = function(manual){
-btns.forEach((btn) =>{
-    btn.classList.remove('active')
-})
-
-    btns[manual].classList.add('active');
-
-    btns.forEach((btn , i)=>{
-        btn.addEventListener('click',() => {
-            slideNav(i);
-        })
-    })
-}
 
 
 const nav = document.querySelector('.header')
