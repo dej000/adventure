@@ -472,7 +472,10 @@ section{
     padding: 0;
 
 }
-
+.hero video{
+    
+display: none;
+}
 .container{
     padding: 100px 20px;
  }
